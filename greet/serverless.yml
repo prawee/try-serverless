@@ -1,11 +1,11 @@
 org: prawee
-app: greet
+# app: greet
 service: greet
 frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs22.x
+  runtime: nodejs20.x
   region: ap-southeast-7
 
 functions:
